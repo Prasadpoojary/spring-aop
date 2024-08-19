@@ -1,15 +1,3 @@
-2024-08-19T22:33:04.249+05:30  INFO 17928 --- [aop] [main] com.springboot.aop.AopApplication        : Starting AopApplication using Java 17.0.8 with PID 17928 (C:\Users\prasa\Documents\Learning\Spring boot\aop\aop\target\classes started by prasa in C:\Users\prasa\Documents\Learning\Spring boot\aop\aop)
-2024-08-19T22:33:04.252+05:30  INFO 17928 --- [aop] [main] com.springboot.aop.AopApplication        : No active profile set, falling back to 1 default profile: "default"
-2024-08-19T22:33:05.420+05:30  INFO 17928 --- [aop] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-19T22:33:05.437+05:30  INFO 17928 --- [aop] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-19T22:33:05.438+05:30  INFO 17928 --- [aop] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-19T22:33:05.505+05:30  INFO 17928 --- [aop] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-19T22:33:05.505+05:30  INFO 17928 --- [aop] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
-2024-08-19T22:33:06.353+05:30  INFO 17928 --- [aop] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-19T22:33:06.364+05:30  INFO 17928 --- [aop] [main] com.springboot.aop.AopApplication        : Started AopApplication in 2.472 seconds (process running for 2.77)
-2024-08-19T22:33:21.343+05:30  INFO 17928 --- [aop] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-19T22:33:21.343+05:30  INFO 17928 --- [aop] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-19T22:33:21.344+05:30  INFO 17928 --- [aop] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2024-08-19T22:33:21.379+05:30  INFO 17928 --- [aop] [http-nio-8080-exec-1] com.springboot.aop.aoputil.AopHandler    : Entry into the method-execution getAllUsers of com.springboot.aop.democontroller.UserController
 2024-08-19T22:33:21.383+05:30  INFO 17928 --- [aop] [http-nio-8080-exec-1] com.springboot.aop.aoputil.AopHandler    : Entry into the method-execution getAllUsers of com.springboot.aop.demoservice.UserService
 2024-08-19T22:33:21.387+05:30  INFO 17928 --- [aop] [http-nio-8080-exec-1] com.springboot.aop.aoputil.AopHandler    : Entry into the method-execution getAllUsers of com.springboot.aop.demorepository.UserRepository
